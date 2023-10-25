@@ -139,3 +139,35 @@
 .footer .box{
     width:1000px;
 }
+
+@media(max-width:1300px){
+    .class{
+        display: flex;
+        flex-direction: column;
+        height: 1800px;
+    }
+    .imgr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .class .text{
+        width: 400px;
+        height: 800px;
+        border-radius: 10%;
+    }
+    .box{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box .text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box p {
+        font-size: 15px;
+    }
+    
+}

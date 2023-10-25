@@ -91,7 +91,7 @@ body{font-family: cursive;}
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color:rgb(16, 94, 114) ;
+  background-color:rgb(16, 94, 114);
   margin-top: 400px;
   margin-left: 300px;
   margin-right: -80px;
@@ -382,6 +382,91 @@ body{font-family: cursive;}
 .reveal.active{
   transform: translateY(0px);
   opacity: 1;
+}
+
+@media (max-width: 1300px){
+  .div1 h1{
+    font-size: 50px;
+  }
+  .div5{
+    display: flex;
+    height: 1000px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .div5 .circle{
+    margin-top: 10px;
+    
+    opacity: 0;
+  }
+  .div5 img{
+    margin-top: -50px;
+    width: 400px;
+    height: 400px;
+  }
+  .div5 .info{
+    margin-top: 10px;
+    width: 400px;
+    height: 450px;
+    margin-left: 0px;
+  }
+  .div5 .info h1{
+    font-size: 40px;
+  }
+  .div5 .info button{
+    margin-top: 10px;
+  }
+  .div4{
+    height: 2000px;
+  }
+  .div4 .boxo{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .div4 .boxo .boxi{
+    margin-top: 40px;
+  }
+  .div2{
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div2 .box1{
+    margin-top: 0px;
+  }
+  .div2 .image img{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+  }
+  .div2 .circle{
+    width:150px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: -150px;
+  }
+  .div2 .circlei{
+    width: 100px;
+    height: 100px;
+  }
+  .founder .box2{
+    margin-top: 50px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    
+    height: 90vh;
+  }
+  .footer .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .box {
+    margin-top: 0px;
+  }
+  
 }
 
 
