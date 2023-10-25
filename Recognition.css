@@ -1,0 +1,8 @@
+.slider{
+    margin-top: 100px;
+}
+.slider .hover:hover{
+    width:500px;
+    height: 500px;
+    opacity: 2;
+}

@@ -1,0 +1,13 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 211, 216);
+}
+.box{
+    width: 600px;
+    height: 800px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+
+}
