@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   background-color: rgb(123, 211, 233);
-  font-family: cursive;
 }
 .form {
   display: flex;
