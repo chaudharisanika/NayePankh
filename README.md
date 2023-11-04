@@ -1,2 +1,2 @@
 # NayePankh
-[NayePankh](https://chaudharisanika.github.io/NayePankh/)
+[NayePankh-org](https://chaudharisanika.github.io/NayePankh/)
