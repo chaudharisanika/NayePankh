@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nayepankh Community</title>
+  <link rel="stylesheet" href="Community.css">
+</head>
+<body>
+
+  <header>
+    <h1>Nayepankh Community</h1>
+    <a href="./index.html">Go back to home page!</a>
+  </header>
+
+  <div class="main">
+    <div class="review-form inform">
+      <h2>Give Your Valuable feedback</h2>
+      <form id="reviewForm">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <br>
+        <label for="platform">How did you hear about our fundraiser?: </label>
+        <br>
+        <input type="text" placeholder="Social Media/Online/Other" id="platform" required>
+        <br>
+        <label for="review">Your Review:</label>
+        <br>
+        <textarea id="review" name="review" rows="4" placeholder="Review"></textarea>
+        
+        <br><br>
+        <button type="button" onclick="submitReview()">Submit Review</button>
+      </form>
+    </div>
+    <div>
+    <h1>Community Reviews</h1>
+    <h3>Your Reviews will be added here on our community page</h3>
+    <ul class="reviews" id="reviewsList">
+      <!-- Reviews will be dynamically added here using JavaScript -->
+      <li>Sanika -  Being a beneficiary of Nayepankh has been a life-changing experience. Their support and guidance have empowered me to overcome challenges and pursue a better future. I am grateful for the positive impact they've had on my life."</li>
+      <li>ABC -  I've been supporting Nayepankh for several years, and I continue to be impressed by their commitment to transparency and accountability.</li>
+      <li>XYZ - "I've been following Nayepankh for a while, and I am continually amazed by the positive impact they have on individuals and communities. Their commitment to social change is commendable, and I'm proud to support an organization that truly makes a difference."</li>
+    </ul>
+    </div>
+  </div>
+
+ <script src="Community.js"></script>
+
+</body>
+</html>
