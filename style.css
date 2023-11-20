@@ -2,6 +2,10 @@ body {
   font-family: Georgia;
   background-color: rgb(208, 237, 245);
 }
+/* .sty{
+  background-color: brown;
+
+} */
 #div1 {
   width: 100%;
   height: 100vh;

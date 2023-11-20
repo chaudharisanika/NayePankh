@@ -49,3 +49,5 @@ function reveal() {
     }
   }
 }
+const headerEl = document.getElementById("header");
+document.body.appendChild(headerEl.content);
